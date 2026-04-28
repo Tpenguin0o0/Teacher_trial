@@ -2,7 +2,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { SparkRenderer, SplatMesh } from "@sparkjsdev/spark";
 
-const MODEL_URL = "/models/teacher_splat.sog";
+const MODEL_URL = `${import.meta.env.BASE_URL}models/teacher_splat.sog`;
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x020208);
